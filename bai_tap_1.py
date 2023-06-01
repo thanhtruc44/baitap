@@ -18,4 +18,6 @@ y = [A,T,G,C]
 import plotly
 import plotly.express as px
 fig = px.bar(x=["A", "T", "G","X"], y=[A, T, G, C])
+
+fig.write_image("Ques01.png")
 fig.show()
